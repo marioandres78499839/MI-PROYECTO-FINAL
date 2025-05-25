@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Carrito - MiTienda</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="navbar">
+    <div class="logo">MiTienda</div>
+    <nav>
+      <a href="index.html">Inicio</a>
+      <a href="productos.html">Productos</a>
+      <a href="carrito.html">Carrito</a>
+      <a href="contacto.html">Contacto</a>
+    </nav>
+    <div class="icono-carrito">
+      <a href="carrito.html">🛒</a>
+    </div>
+  </header>
+
+  <main class="productos">
+    <h1>Tu Carrito</h1>
+    <div id="lista-carrito" class="grid-productos"></div>
+    <div id="total" class="total-compra"></div>
+    <button onclick="vaciarCarrito()" class="boton">Vaciar carrito</button>
+  </main>
+
+  <footer class="footer">
+    <p>&copy; 2025 MiTienda. Todos los derechos reservados.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
