@@ -63,21 +63,6 @@
     margin-bottom: 1rem;
   }
   
-  .bienvenida .boton {
-    background-color: #ff6b6b;
-    color: white;
-    padding: 0.75rem 1.5rem;
-    text-decoration: none;
-    border-radius: 5px;
-    font-weight: bold;
-    transition: background-color 0.3s ease;
-  }
-  
-  .bienvenida .boton:hover {
-    background-color: #e55050;
-  }
-  
- 
   .productos {
     padding: 2rem;
     max-width: 1200px;
@@ -163,46 +148,46 @@
     }
   }
 
-  .galeria {
-    padding: 2rem;
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-    gap: 2rem;
-    max-width: 1200px;
-    margin: auto;
+  .contenedor-productos {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    padding: 20px;
   }
-
+  
   .cuadro-galeria {
     background: white;
     border-radius: 10px;
     box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
     overflow: hidden;
     transition: transform 0.3s ease;
+    width: 250px;
+    text-align: center;
   }
-
+  
   .cuadro-galeria:hover {
     transform: scale(1.03);
   }
-
+  
   .cuadro-galeria img {
     width: 100%;
     height: 220px;
     object-fit: cover;
   }
-
+  
   .cuadro-galeria .contenido {
     padding: 1rem;
-    text-align: center;
   }
-
+  
   .cuadro-galeria h3 {
     margin-bottom: 0.5rem;
     font-size: 1.2rem;
+    color: #222;
   }
-
+  
   .cuadro-galeria p {
     font-size: 0.95rem;
     color: #666;
   }
-
- 
+  
